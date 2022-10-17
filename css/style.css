@@ -1,0 +1,155 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 79px;
+    margin: 0%;
+    padding: 0%;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+}
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.content-block {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.navigation {
+    padding: 40px 0 40px 0;
+    margin-bottom: 100px;
+}
+
+.links {
+    display: inline-block;
+    margin-right: 42px;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.links-homepage {
+    display: inline-block;
+    margin-right: 42px;
+    color:#34547A;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: #34547A;
+}
+
+.grey-text {
+    color: #727272;
+    line-height: 26px;
+}
+
+.header {
+    background-color: #EEEFF1;
+}
+
+.header .grey-text {
+    padding: 40px 453px 84px 0;
+}
+
+.header .button {
+    padding-bottom: 150px;
+    margin-bottom: 10px;
+}
+
+.header .button a {
+    color: #ffffff;
+    padding: 20px 70px;
+    text-decoration: none;
+    background-color: #34547A;
+}
+
+.statistic {
+    background-color: #34547A;
+}
+
+.statistic .content-block {
+    padding: 50px 0;
+}
+
+.statistic .statistic-item {
+    display: inline;
+    padding: 5px;
+}
+
+.how-do-i-work {
+    background-color: #EEEFF1;
+}
+
+.text-block h2 {
+    margin-top: 40px;
+}
+
+.text-block .content-block {
+    text-align: center;
+}
+
+.text-block h2 {
+    margin-top: 110px;
+}
+
+.text-block .grey-text {
+    padding: 50px 235px 100px 235px;
+}
+
+.text-block video {
+    width: 1000px;
+    margin-bottom: 100px;
+}
+
+.footer {
+    background-color: #34547A;
+    color: #ffffff;
+}
+
+.footer .content-block {
+    padding: 43px 0;
+}
+
+.footer .title {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.text-list {
+    display: inline-block;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.pictures {
+    width: 141px;
+    padding: 0 15px;
+}
