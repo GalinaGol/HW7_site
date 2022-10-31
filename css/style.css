@@ -29,8 +29,7 @@ body {
 }
 
 .navigation {
-    padding: 40px 0 40px 0;
-    margin-bottom: 100px;
+    padding: 40px 0 100px 0;
 }
 
 .links {
@@ -51,8 +50,14 @@ body {
     text-decoration: none;
 }
 
+.links-homepage:hover {
+    color: black;
+    text-decoration: underline;
+}
+
 .links:hover {
     color: #34547A;
+    text-decoration: underline;
 }
 
 .grey-text {
@@ -78,6 +83,14 @@ body {
     padding: 20px 70px;
     text-decoration: none;
     background-color: #34547A;
+    display: inline-block;
+    border: 1px solid #34547A;
+}
+
+.button a:hover {
+    background: #ffffff;
+    color:#34547A;
+    border: 1px solid #34547A;
 }
 
 .statistic {
